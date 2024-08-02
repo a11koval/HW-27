@@ -62,6 +62,9 @@ body {
 .submenu-item {
     padding: 50px 0 1px 0;
 }
+.submenu-item:hover{
+    color: orange;
+}
 
 
 .diamond {
