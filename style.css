@@ -8,15 +8,12 @@ body {
     margin: 0;
     
     background-color: gray;
-   
+   height: 100vh;
     position: fixed;
     padding: 0;
 }
 
-.menu-item {
-    position: relative;
-    writing-mode: vertical-lr;
-}
+
 
 .menu-item:hover .submenu {
     display: block;
@@ -35,14 +32,15 @@ body {
     font-family: sans-serif;
     
     height: 700px;
-
+    position: relative;
+    writing-mode: vertical-lr;
 }
 
 .submenu {
-    position: absolute;
+    
     width: 200px;
     height: 750px;
-    list-style: none;
+   
     background-color: gray;
     display: none;
     writing-mode: horizontal-tb;
@@ -74,5 +72,6 @@ body {
 
 .menu-item:hover .menu-text {
     transform: translatex(150%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.9s ease-in;
+
 }
